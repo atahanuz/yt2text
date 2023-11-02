@@ -2,14 +2,14 @@
 
 Pythob library for extracting text from a YouTube video in a single command, using OpenAi's Whisper speech recognition model. It doesn't use disk, performs everything in memory.
 
-### INSTALL:
+### Installation:
 ```
 pip install yt2text
 ```
 Whisper requires **ffmpeg** to be installed in your computer. Check Whisper's requirements
 https://github.com/openai/whisper#setup
 
-### USAGE:
+### Usage:
 
 You'll only interact with the get_text function. It takes a YouTube URL as an argument and returns the text as a string.
 
@@ -20,7 +20,7 @@ text = yt2text.get_text("https://www.youtube.com/watch?v=fLeJJPxua3E")
 print(text)
 ```
 
-### OPTIONAL ARGUMENTS:
+### Optional Arguments:
 **model**: 
 Set Whisper model (tiny,base,small,medium or large). Check here for details:
 https://github.com/openai/whisper#available-models-and-languages
@@ -40,8 +40,8 @@ print(text)
 ```
 
 ## Contact
-Raise an Issue in yt2text's GitHub repo
-https://github.com/atahanuz/yt2text
+Raise an Issue in this Github repo (preferred, it sends a notification to my phone)
+Or mail me at atahanuz23@gmail.com
 
 
 
