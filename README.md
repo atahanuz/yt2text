@@ -13,7 +13,7 @@ https://github.com/openai/whisper#setup
 
 You'll only interact with the get_text function. It takes a YouTube URL as an argument and returns the text as a string.
 
-```
+```python
 import yt2text
 
 text = yt2text.get_text("https://www.youtube.com/watch?v=fLeJJPxua3E")
@@ -32,7 +32,7 @@ The first time you use a model, it will be downloaded first.
 Set True to print each step of the process. Defaults to False, it only prints if there is an error.
 
 ### Usage with optional arguments
-```
+```python
 import yt2text
 
 text = yt2text.get_text("https://www.youtube.com/watch?v=fLeJJPxua3E", model="medium", verbose=True)
