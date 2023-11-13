@@ -2,6 +2,8 @@
 
 Pythob library for extracting text from a YouTube video in a single command, using OpenAi's Whisper speech recognition model. It doesn't use disk, performs everything in memory.
 
+https://pypi.org/project/yt2text/
+
 ### Installation:
 ```
 pip install yt2text
